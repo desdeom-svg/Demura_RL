@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.dll
+*.so
+*.dylib
+
+# Executable files
+*.exe
+
+# IDE configs
+.vscode/
+.idea/
+.reasonix/
+
+# Build and distribution directories
+build/
+dist/
+tmp/
+back/
+
+# Training Logs, results and captured images
+Log/
+HxLog/
+TrainLogs/
+ResultData/
+TransferBmp/
+images/
+imageCompre/
+RealWorld_Train/
+
+# Ignore large media/data files
+*.tiff
+*.tif
+*.bmp
+*.png
+
+# Ignore TrainData but preserve the required pretrained actor model
+TrainData/
+!TrainData/Demura_Final_Opt_Gaussian/
+!TrainData/Demura_Final_Opt_Gaussian/best_actor.pth
